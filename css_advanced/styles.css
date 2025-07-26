@@ -1,0 +1,378 @@
+/*1. Align smileSchool and ul*/
+/* add get schooled in the middle*/
+/* add smiles grin laugh*/
+/* add resiter for free*/
+/* add learn from the pros*/
+/* add the for imaages and align then horizontically*/
+/**/
+/**/
+/**/
+/*Section 1*/
+
+/* Reset margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  padding: 20px;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-container img {
+  height: 30px;
+}
+
+.brand {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.section1 {
+  background: url("images/Object.png");
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 885px;
+}
+
+/* --- Top Content --- */
+.up h1 {
+    margin-top: 200px;
+  font-size: 100px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.up > div {
+  margin-bottom: 10px;
+}
+
+.up span {
+  display: inline-flex;
+  margin: 10px;
+  font-size: 15px;
+
+}
+
+.up button {
+  margin-top: 30px;
+  padding: 10px 25px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #C271FF;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-bottom: 7px;
+}
+
+/* --- Learn from the pros --- */
+.up0 h2 {
+  font-size: 32px;
+  margin: 100px 0 30px;
+  margin-bottom: 110px;
+}
+
+.up0 > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+.up3 img {
+ 
+  border-radius: 50%;    /* Makes it a circle */
+
+  margin: 0 auto;        /* Center image horizontally (optional) */
+}
+
+
+.up0 .up1,
+.up0 .up2,
+.up0 .up3,
+.up0 .up4 {
+  text-align: center;
+  max-width: 500px;
+  font-size: 10px;
+}
+
+.up0 img {
+    
+  width: 50%;
+  border-radius: 10px;
+ 
+}
+
+.highlight{
+    color: #C271FF;
+   
+}
+
+
+
+.redMan{
+    background-color: #C271FF;
+    width: 1440px;
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+  background-repeat: no-repeat;
+}
+.redMan {
+  display: flex;
+  align-items: center;  /* Vertically centers the right-side content */
+  gap: 30px;            /* Space between image and content */
+  padding: 40px;
+}
+
+.redMan img {
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px; /* optional for rounded image */
+}
+
+.redMan blockquote {
+  
+  margin-bottom: 10px;
+}
+
+.redMan {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.redMan blockquote {
+  margin: 0 0 10px 0;
+  font-style: italic;
+  max-width: 600px;
+}
+
+.person {
+  text-align: left; /* aligns text to the left under the quote */
+}
+
+.person h3,
+.person p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.smile{
+    background-color: white;
+    color: black;
+    align-items: center;
+     
+    font-size: 10px;
+    justify-content: center;
+}
+.smile h4{
+    color:#C271FF;
+}
+.star{
+    display: flex;
+    color: #C271FF;
+}
+.face{
+    margin-top: 10px;
+      
+}
+.flex{
+    margin: 20px;
+    display: flex;
+    max-width: 5001px;
+    align-content: center;
+    justify-content: space-between;
+    
+ 
+}
+.face img{
+    width:200px
+}
+
+.face div img{
+    width: 30px;
+}
+
+.freeMembership {
+  background-color: #0b132b;
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.freeMembership h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+
+.freeMembership h2 span {
+  color: #a855f7; /* purple */
+  font-weight: bold;
+}
+
+.freeMembershipContent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.freeMembershipContent div {
+  flex: 1;
+  min-width: 200px;
+  max-width: 220px;
+  text-align: center;
+}
+
+.freeMembershipContent img {
+  width: 50px;
+  height: auto;
+  margin-bottom: 20px;
+  filter: hue-rotate(270deg) saturate(300%);
+}
+
+.freeMembershipContent h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.freeMembershipContent p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.freeMembership button {
+  margin-top: 40px;
+  padding: 12px 30px;
+  background :#C271FF;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  
+  font-size: 0.9rem;
+}
+
+.freeMembership button:hover {
+  background: linear-gradient(to right, #9333ea, #d946ef);
+}
+
+
+
+.faq {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  letter-spacing: 2px;
+}
+
+.faq-columns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: space-between;
+}
+
+.faq-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.faq-item {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.faq-item h3 {
+  color: purple;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  color: #555;
+  line-height: 1.6;
+}
+footer {
+  background-color: #000033; /* Dark navy */
+  padding: 30px 20px;
+  color: #ccc;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  height: 30px;
+}
+
+.social-icons i {
+  color: white;
+  margin-left: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #9999ff; /* Optional hover color */
+}
+
+footer p {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #888;
+}
